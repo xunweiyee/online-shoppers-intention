@@ -1,6 +1,8 @@
 # online-shoppers-intention
 Using SAS Enterprise Miner to classify site visitors to be positive or negative buyers.
 
+![](assets/all.png) 
+
 ## Project Intro
 Sampling, Exploring, Modifying, Modeling, and Assessing (SEMMA) with SAS Enterprise Miner. Experiment with various methods to explore and develop models for the classification.
 
@@ -28,12 +30,16 @@ Data source from [UCI Machine Learning Repository]. Data class is imbalanced wit
  - Replacement of missing values.
  - Resampling of data.
 
-4. ** Model**
- - Decision Tree
+4. **Model**
+ - Decision Tree  
+ ![](assets/dt.png) 
 
 5. **Assessment**
- - Decision Tree ranks *PageValues* as the most important variable
- - Model Comparison
+ - Decision Tree ranks *PageValues* as the most important variable  
+ ![](assets/varimportance.png) 
+ - Model Comparison  
+ ![](assets/modelselection.png) 
+ ![](assets/roc.png) 
  
 ## Getting Started
 1. Download all the files and start a new SAS Enterprise Miner project.
